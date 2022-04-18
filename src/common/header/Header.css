@@ -1,0 +1,33 @@
+.header {
+    background-color: #222 !important;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+.logo {
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: rotation 8s infinite linear;
+    position: relative;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: right;
+    
+
+  }
+  
+  .button-group Button {
+    margin: 0px 4px;
+    position: relative;
+    bottom: 40px;
+  }
